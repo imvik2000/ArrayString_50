@@ -33,7 +33,7 @@ class Rotation {
     // Driver program to test above functions
     public static void main(String[] args)
     {
-        GFG rotate = new GFG();
+       Rotation rotate = new Rotation();
         int arr[] = { 1, 2, 3, 4, 5 };
         rotate.leftRotate(arr, 2, arr.length);
         rotate.printArray(arr, arr.length);
