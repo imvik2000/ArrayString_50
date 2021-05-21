@@ -5,7 +5,7 @@
 Write your code in this editor and press "Run" button to execute it.
 
 *******************************************************************************/
-
+// merging two sorted array
 
 public class Main
 {
