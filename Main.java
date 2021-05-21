@@ -5,7 +5,7 @@
 Write your code in this editor and press "Run" button to execute it.
 
 *******************************************************************************/
-
+//kadane algo implemented to print max sum of contigous sub array....
 public class Main
 {
     public static void kadane(int[] arr)
