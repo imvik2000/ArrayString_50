@@ -1,4 +1,4 @@
-//program to segragate 0's 1's and 2's in array;
+//program to segragate 0's 1's and 2's in array without using sorting algo;
 public class main
 {
     public static void dutch_national_flag(int arr1[],int n)
