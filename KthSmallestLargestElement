@@ -2,8 +2,7 @@ import java.util.Arrays;
 import java.util.Collections;
  
 class Main {
-    public static int kthSmallest(Integer[] arr,
-                                  int k)
+    public static int kthSmallest(Integer[] arr,int k)
     {
         // Sort the given array
         Arrays.sort(arr);
@@ -24,7 +23,7 @@ class Main {
         return arr[n-k];
     }
  
-    // driver program
+    
     public static void main(String[] args)
     {
         Integer arr[] = new Integer[] { 12, 3, 5, 7, 19 };
