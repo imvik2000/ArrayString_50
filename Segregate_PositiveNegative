@@ -1,0 +1,64 @@
+//move negative element in left side and positive on right using two pointer approach;
+
+class HelloWorld {
+
+
+      public static void RearrangePosNeg(int arr[])
+
+    {
+
+          int i=0;
+
+          int j=arr.length-1;
+
+          while(true)
+
+        {
+
+            while(arr[i]<0 && i<arr.length)
+
+              i++;
+
+              while(arr[j]>0 && j>=0)
+
+              j--;
+
+
+              if(i<j)
+
+            {
+
+                int temp = arr[i];
+
+                  arr[i] = arr[j];
+
+                  arr[j] = temp;
+
+            }
+
+              else
+
+              break;
+
+        }
+
+    } 
+
+   
+
+    
+
+    public static void main (String[] args) 
+
+    {
+
+        int arr[] = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
+
+          RearrangePosNeg(arr);
+
+          for(int i=0;i<arr.length;i++)
+
+          System.out.print(arr[i]+" ");
+
+    }
+}
